@@ -1,0 +1,28 @@
+/* Laptop Responsive  */
+
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    .container{
+        width: 80%;
+    }
+
+    .hero-image img{
+        width: 35rem;
+    }
+
+    .inner-section-container{
+        width: 90%;
+    }
+
+    .newsletter-submit:before{
+        right: 6.375rem;
+    }
+
+    .newsletter-submit input{
+        right: 5.75rem;
+    }
+
+    .phone-btn i {
+        margin-right: 0.625rem;
+    }
+
+}

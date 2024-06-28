@@ -1,0 +1,57 @@
+.reveal.active .slide-right {
+    animation: 3s slide-in-from-right ;
+}
+
+@keyframes slide-in-from-right {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.reveal.active .slide-left {
+    animation: 3s slide-in-from-left;
+}
+
+@keyframes slide-in-from-left {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.reveal.active .slide-up {
+    animation: 3s slide-in-from-up;
+}
+
+@keyframes slide-in-from-up {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* Scroll Animation  */
+
+.reveal{
+    position: relative;
+    transform: translateY(9.375rem);
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.4s ease-out;
+}
+
